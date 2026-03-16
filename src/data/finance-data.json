@@ -1,0 +1,200 @@
+{
+  "summary": {
+    "totalProjects": {
+      "title": "Total Projects",
+      "value": 5
+    },
+    "totalContractValue": {
+      "title": "Total Contract Value",
+      "value": 425000
+    },
+    "totalInvoiced": {
+      "title": "Total Invoiced",
+      "value": 310000
+    },
+    "totalPaid": {
+      "title": "Total Paid",
+      "value": 255000
+    },
+    "totalOutstanding": {
+      "title": "Total Outstanding",
+      "value": 55000
+    },
+    "collectionRate": {
+      "title": "Collection Rate",
+      "value": 82.25
+    }
+  },
+  "projects": [
+    {
+      "invoiceNo": "INV1001",
+      "invoiceDate": "2026-01-10",
+      "dueDate": "2026-02-10",
+      "invoiceAmount": 50000,
+      "receivedAmount": 50000,
+      "outstandingAmount": 0,
+      "invoiceStatus": "Paid",
+      "projectId": "PRJ001",
+      "projectName": "Healthcare Mobile App 1",
+      "clientName": "Medico Ltd",
+      "contractValue": 120000,
+      "projectStatus": "In Progress",
+      "notes": "Final payment received for Phase 1 development.",
+      "breakdownSummary": {
+        "design": 10000,
+        "development": 30000,
+        "testing": 7000,
+        "deployment": 3000
+      }
+    },
+    {
+      "invoiceNo": "INV1002",
+      "invoiceDate": "2026-02-15",
+      "dueDate": "2026-03-15",
+      "invoiceAmount": 50000,
+      "receivedAmount": 30000,
+      "outstandingAmount": 20000,
+      "invoiceStatus": "Partially Paid",
+      "projectId": "PRJ001",
+      "projectName": "Healthcare Mobile App 2",
+      "clientName": "Medico Ltd",
+      "contractValue": 120000,
+      "projectStatus": "In Progress",
+      "notes": "Client requested UI changes before clearing remaining payment.",
+      "breakdownSummary": {
+        "design": 12000,
+        "development": 25000,
+        "testing": 8000,
+        "deployment": 5000
+      }
+    },
+    {
+      "invoiceNo": "INV1003",
+      "invoiceDate": "2026-01-20",
+      "dueDate": "2026-02-20",
+      "invoiceAmount": 90000,
+      "receivedAmount": 90000,
+      "outstandingAmount": 0,
+      "invoiceStatus": "Paid",
+      "projectId": "PRJ002",
+      "projectName": "E-Commerce Platform",
+      "clientName": "ShopEase",
+      "contractValue": 90000,
+      "projectStatus": "Completed",
+      "notes": "Project completed successfully. Full payment cleared.",
+      "breakdownSummary": {
+        "design": 15000,
+        "development": 50000,
+        "testing": 15000,
+        "deployment": 10000
+      }
+    },
+    {
+      "invoiceNo": "INV1004",
+      "invoiceDate": "2026-03-01",
+      "dueDate": "2026-04-01",
+      "invoiceAmount": 30000,
+      "receivedAmount": 0,
+      "outstandingAmount": 30000,
+      "invoiceStatus": "Pending",
+      "projectId": "PRJ003",
+      "projectName": "Banking Dashboard",
+      "clientName": "FinTrust Bank",
+      "contractValue": 80000,
+      "projectStatus": "In Progress",
+      "notes": "Invoice sent, awaiting client approval for payment.",
+      "breakdownSummary": {
+        "design": 5000,
+        "development": 18000,
+        "testing": 5000,
+        "deployment": 2000
+      }
+    },
+    {
+      "invoiceNo": "INV1005",
+      "invoiceDate": "2026-02-10",
+      "dueDate": "2026-03-10",
+      "invoiceAmount": 40000,
+      "receivedAmount": 30000,
+      "outstandingAmount": 10000,
+      "invoiceStatus": "Partially Paid",
+      "projectId": "PRJ004",
+      "projectName": "Logistics Management System",
+      "clientName": "FastTrack Logistics",
+      "contractValue": 75000,
+      "projectStatus": "In Progress",
+      "notes": "Partial payment received, remaining expected next month.",
+      "breakdownSummary": {
+        "design": 8000,
+        "development": 20000,
+        "testing": 7000,
+        "deployment": 5000
+      }
+    },
+    {
+      "invoiceNo": "INV1006",
+      "invoiceDate": "2026-03-05",
+      "dueDate": "2026-04-05",
+      "invoiceAmount": 20000,
+      "receivedAmount": 10000,
+      "outstandingAmount": 10000,
+      "invoiceStatus": "Partially Paid",
+      "projectId": "PRJ005",
+      "projectName": "EdTech Learning Platform",
+      "clientName": "LearnHub",
+      "contractValue": 60000,
+      "projectStatus": "Just Started",
+      "notes": "Initial milestone payment received.",
+      "breakdownSummary": {
+        "design": 4000,
+        "development": 10000,
+        "testing": 4000,
+        "deployment": 2000
+      }
+    }
+  ],
+  "financeTrends": {
+    "monthlyRevenue": [
+      {
+        "month": "Jan",
+        "revenue": 80000
+      },
+      {
+        "month": "Feb",
+        "revenue": 95000
+      },
+      {
+        "month": "Mar",
+        "revenue": 80000
+      }
+    ],
+    "monthlyInvoices": [
+      {
+        "month": "Jan",
+        "invoices": 3
+      },
+      {
+        "month": "Feb",
+        "invoices": 2
+      },
+      {
+        "month": "Mar",
+        "invoices": 1
+      }
+    ],
+    "outstandingTrend": [
+      {
+        "month": "Jan",
+        "amount": 60000
+      },
+      {
+        "month": "Feb",
+        "amount": 65000
+      },
+      {
+        "month": "Mar",
+        "amount": 55000
+      }
+    ]
+  }
+}
